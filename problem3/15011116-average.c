@@ -2,11 +2,11 @@
   
 int main(void)
 {
-        int system, algorithm, network;
+        float system, algorithm, network;
         float average;
 
         printf("Input the system programming, algortihm, and network score:");
-        scanf("%d%d%d", &system, &algorithm, &network);
+        scanf("%f%f%f", &system, &algorithm, &network);
 
         average = (system + algorithm + network) / 3;
 
